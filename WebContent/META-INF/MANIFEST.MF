@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: ActiveLink
+Implementation-Version: 7.3.0
+Vaadin-Widgetsets: org.vaadin.activelink.ActivelinkWidgetset
+Vaadin-Package-Version: 1
+Class-Path: 
+
