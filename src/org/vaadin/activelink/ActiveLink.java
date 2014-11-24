@@ -82,6 +82,8 @@ public class ActiveLink extends com.vaadin.ui.Link {
 	}
 
 	public class LinkActivatedEvent extends Component.Event {
+		
+		private static final long serialVersionUID = -1226352301129982448L;
 
 		private MouseEventDetails details;
 
@@ -113,7 +115,7 @@ public class ActiveLink extends com.vaadin.ui.Link {
 	/**
 	 * ActiveLink click listener
 	 */
-	public interface LinkActivatedListener {
+	public interface LinkActivatedListener extends Serializable {
 
 		/**
 		 * ActiveLink has been activated.
